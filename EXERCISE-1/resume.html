@@ -1,80 +1,104 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My resume</title>
-</head>
-<body>
-    <header> <!--This is my header, my name-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume of - mKx</title> <!--My nickname of programmet-->
+  </head>
+  <body>
+    <main>
+      <header>
+        <!--This the header, i think this structure because it's a common pattern for resumes and its generic-->
         <h1>ERIC ALEXANDER ALDANA SANGOQUIZA</h1>
-    </header>
-    <section> <!--This is my profile section-->
-        <h2>
-            <p>My profile</p>
-        </h2>
+        <nav>
+          <ul>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section id="profile">
+        <!--This the profile section, i thinks this is a common pattern for resumes-->
+        <h2>My profile</h2>
         <p>
-            Hi, I'm a developer that love create websites, applications, and the code. I wish
+          Hi, I'm a developer that love create websites, applications, and the
+          code. I wish
         </p>
         <p>
-            to be a great developer and learn more tools, technologies, frameworks and languages.
+          to be a great developer and learn more tools, technologies, frameworks
+          and languages.
         </p>
-    </section>
-    <section> <!--This is my education section-->
-        <h2>
-            <p>My education</p>
-        </h2>
+        <address>email@gmail.com</address>
+        <number>+593 999999999</number>
+      </section>
+      <section id="education">
+        <!--This the education section, i thinks this is the second part with important information, and this must be here-->
+        <h2>My education</h2>
         <article>
-            <h3>
-                Bachelor of Science in Information Techonoly
-            </h3>
-            <p>
-                2020 - 2022
-            </p>
+          <h3>Bachelor of Science in Information Techonoly</h3>
+          <time datetime="2020-01">2020 - 2022</time>
         </article>
         <article>
-            <h3>
-                FP of Development
-            </h3>
-            <p>2022 - 2024</p>
+          <h3>FP of Development</h3>
+          <time datetime="2022-01">2022 - 2024</time>
         </article>
-    </section>
-    <section> <!--This is my experience section-->
+      </section>
+      <section id="experience">
+        <!--This the experience section, i think that does not necessary into more in this section, with relative information-->
         <h2>My experience</h2>
         <article>
-            <h3>Developer a website</h3>
-            <h3>IES Paco Pacheco</h3>
-            <h3>1 month (April - May) 2023</h3>
-            <p>
-                I develop two website for a educational institution. The first website was for
-            </p>
-            <p>
-                the estudents of education physical, and the second website was for the Erasmus
-            </p>
-            <p>
-                program. I use HTML, CSS, JavaScript and WordPress for the two websites.
-            </p>
+          <h3>Developer a website</h3>
+          <h4>IES Paco Pacheco</h4>
+          <time datetime="2023-04">1 month (April - May) 2023</time>
+          <p>
+            I develop two website for a educational institution. The first
+            website was for
+          </p>
+          <p>
+            the estudents of education physical, and the second website was for
+            the Erasmus
+          </p>
+          <p>
+            program. I use HTML, CSS, JavaScript and WordPress for the two
+            websites.
+          </p>
         </article>
         <article>
-            <h3>IT</h3>
-            <h3>Spotify</h3>
-            <h3>3 months (April - June) 2024</h3>
-            <p>
-                I work how an IT for Spotify, i help the users with their problems, and i also help
-            </p>
-            <p>
-                 the company with their problems. I use Windows, Linux, MacOS, and some tools for the IT.
-            </p>
+          <h3>IT</h3>
+          <h4>Spotify</h4>
+          <time datetime="2024-04">3 months (April - June) 2024</time>
+          <p>
+            I work how an IT for Spotify, i help the users with their problems,
+            and i also help
+          </p>
+          <p>
+            the company with their problems. I use Windows, Linux, MacOS, and
+            some tools for the IT.
+          </p>
         </article>
-    </section>
-    <section> <!--This is my skills section-->
+      </section>
+      <section id="skills"> <!--This the skills section, i think this is the part with more height, because it contains a lot of information of me, but i don't know where put it -->
         <h2>My skills</h2>
-        <p>HTML</p>
-        <p>CSS</p>
-        <p>JavaScript</p>
-        <p>Python</p>
-        <p>React</p>
-        <p>Node.js</p>
-    </section>
-</body>
+        <caption>
+            <tr>
+                <th scope="col">Skill</th>
+                <td>HTML</td>
+                <td>CSS</td>
+                <td>JavaScript</td>
+            </tr>
+            <tr>
+                <th scope="col">Level</th>
+                <td>Intermediate</td>
+                <td>Intermediate</td>
+                <td>Beginner</td>
+            </tr>
+        </caption>
+      </section>
+    </main>
+    <footer>
+      <p>© 2024 Eric Alexander Aldana Sangoquiza</p>
+    </footer>
+  </body>
 </html>
