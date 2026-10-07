@@ -1,0 +1,1 @@
+Write your resume how a real web page, using just HTML and CSS. The goal is that the structure has sense for him.
